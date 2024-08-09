@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CCTV Viewer - Admin Panel</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Panel</h1>
+
+    <!-- File Upload Section -->
+    <h2>Upload Video</h2>
+    <form id="uploadForm">
+      <label for="video">Select Video File:</label>
+      <input type="file" id="video" accept=".mp4, .avi" required>
+      <button type="submit">Upload</button>
+    </form>
+    <div id="uploadStatus"></div>
+
+    <hr>
+
+    <!-- File Management Section -->
+    <h2>Manage Videos</h2>
+    <div id="fileList"></div>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

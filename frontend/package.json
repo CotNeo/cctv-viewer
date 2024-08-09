@@ -1,0 +1,8 @@
+{
+  "name": "cctv-viewer-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for CCTV Viewer Application",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {}
+}
